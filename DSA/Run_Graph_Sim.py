@@ -1,5 +1,4 @@
 from Graph import Graph
-
 def run_simulations(directed):
     # Create a new graph
     graph = Graph(is_directed=directed)
@@ -54,3 +53,7 @@ print('-----------------------------')
 print('Undirected/Bidirectional Graph')
 print('-----------------------------')
 run_simulations(directed=False)
+
+
+# getUserInput
+# Get graph visualizations
